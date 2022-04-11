@@ -1,0 +1,12 @@
+[
+    {
+        "user_id": 4,
+        "comment_text": "Such a great recipe! Added some basil to roast with the tomatoes and arugula once it came out of the oven. Was a real hit!",
+        "recipe_id": 2
+    },
+    {
+        "user_id": 6,
+        "comment_text": "This salad was so wonderful and fresh to go with our lunch today! We absolutely loved this salad! We added some Italian sausage to this and it was so good! Can not wait to make this again!",
+        "recipe_id": 2
+    }
+]

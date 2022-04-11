@@ -1,0 +1,392 @@
+[
+    {
+        "recipe_name": "Buratta with Roasted Tomatoes",
+        "description": "These roasted tomatoes are the tastiest summer appetizer you'll ever make and they take just a few minutes to throw together! Loaded with creamy burrata cheese, drizzled with balsamic reduction and garnished with fresh basil - just grab a baguette and a bottle of wine and I'll meet you on the patio!",
+        "user_id": 1,
+        "steps": ["Preheat oven to 400 degrees.", "In a small baking dish combine tomatoes, garlic, oregano, and olive oil along with a pinch of salt. Toss to coat the tomatoes evenly.", "Roast for 30 minutes.", "While the tomatoes are roasting, add balsamic vinegar to a small saucepan over medium-high heat.", "Bring to a simmer, reduce heat and gently simmer for 12-15 minutes, or until it reduces by about half and it easily coats the back of a spoon. Set aside to cool.", "Remove roasted tomatoes from the oven and top with burrata. Drizzle with balsamic reduction and garnish with fresh basil.", "Serve with sliced French baguette and enjoy!"],
+        "ingredients": ["2 pints grape tomatoes", "4 cloves garlic, thinly sliced", "2-3 tablespoons olive oil", "1/2 teaspoon dried oregano", "kosher salt", "8 oz buratta cheese", "1/2 cup balsamic vinegar", "fresh basil for garnish", "sliced French baguette for serving"],
+        "time": 35, 
+        "servings": 6,
+        "image": "https://i.imgur.com/D5Kq2oF.jpg",
+        "recipe_categories": [{
+            "category_id": 6
+        },{
+            "category_id": 10
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Pasta With Lemon-Parmigiano Sauce",
+        "description": "This creamy, dreamy lemon-Parmigiano pasta is the ultimate last-minute meal. The sauce is quickly assembled as the pasta boils away and is made up entirely of items you should always have in your pantry: dry pasta, lemon, Parmigiano-Reggiano, and olive oil. The magic ingredient here is the pasta cooking water, which takes the starch from the cooking pasta and uses it to bind the lemon juice, grated cheese, and olive oil to make a perfect pasta sauce.",
+        "user_id": 2,
+        "steps": ["In a medium bowl, vigorously mix the lemon zest and juice, cheese, oil, ½ teaspoon salt, and a few generous grindings of black pepper so the cheese “melts” into the oil and lemon juice. Taste, adding more salt and pepper to your liking; set aside.", "Bring a large pot of generously salted water to a boil (1 tablespoon of salt for every 6 cups of water). Cook the pasta, stirring occasionally, according to the package directions. Drain, reserving 1 cup of the pasta cooking water.", "Return the drained pasta to the hot, empty pot. Pour the lemon-Parmigiano sauce over, tossing with ½ cup of the reserving cooking water to make a creamy sauce that clings to the strands, adding more cooking water as necessary. Add the basil and toss once or twice just to incorporate.", "Divide the pasta among bowls. Garnish with more Parmigiano-Reggiano."],
+        "ingredients": ["2 organic lemons, zested and juiced", "3/4 cup grated Parmigiano-Reggiano, plus more for serving", "1/3 cup extra-virgin olive oil", "Kosher salt and freshly ground pepper", "1 pound spaghetti or angel hair pasta", "20 large fresh basil leaves, thinly sliced"],
+        "time": 25, 
+        "servings": 4,
+        "image": "https://www.joyousapron.com/wp-content/uploads/2019/07/Lemon-Garlic-Parmesan-Pasta-Pic-1.jpg",
+        "recipe_categories": [{
+            "category_id": 6
+        },{
+            "category_id": 1
+        },{
+            "category_id": 17
+        }],
+        "Comments": [
+            {
+                "user_id": 4,
+                "comment_text": "Such a great recipe! Added some basil to roast with the tomatoes and arugula once it came out of the oven. Was a real hit!"
+            },
+            {
+                "user_id": 6,
+                "comment_text": "This salad was so wonderful and fresh to go with our lunch today! We absolutely loved this salad! We added some Italian sausage to this and it was so good! Can not wait to make this again!"
+            }
+        ]
+    }, 
+    {
+        "recipe_name": "Penne With Roasted Cherry Tomatoes",
+        "description": "This exquisitely simple recipe came to The Times in a 2001 article about Paola di Mauro, an Italian winemaker in Marina, a small town southeast of Rome. She was one of a band of cooks who helped distinguish cucina casalinga, roughly translated as housewives' cooking. From her humble kitchen, Ms. di Mauro mentored some of the best Italian chefs and restaurateurs in the United States, including Mario Batali, Lidia Bastianich, Piero Selvaggio and Tony May. Her recipe is easy and calls for just five ingredients – cherry tomatoes, olive oil, pecorino romano and penne pasta – but get your hands on the best ingredients you can afford. Ms. di Mauro intended this to serve four as a first course, but if you're making this for dinner, double the recipe.",
+        "user_id": 2,
+        "steps": ["Preheat oven to 425 degrees. Line bottom of casserole dish with cherry tomatoes in a single layer, halved side up. Pour oil on top, season with salt and pepper. Sprinkle cheese and bread crumbs on top. Bake until tomatoes have wilted, about 20 minutes.", "Meanwhile, bring a large pot of water to a boil. Season with enough sea salt so that water tastes mildly of salt. When tomatoes are just about done, add penne to water and cook until al dente (it should be pliable, but still firm in center). Scoop out about a cup of pasta water and reserve. Drain pasta and add to casserole. Fold tomatoes and pasta together, adding another 2 to 3 tablespoons olive oil, to coat. Taste and adjust seasoning. If it is dry, add a little reserved pasta water. Serve, passing more grated cheese at the table."],
+        "ingredients": ["1 pound small cherry tomatoes, halved", "1/3 cup extra-virgin olive oil, plus 2 - 3 tablespoons for tossing", "Sea salt", "Freshly ground black pepper", "1/4 cup freshly grated pecorino romano, more for serving", "1/4 cup bread crumbs", "1/2 pound penne"],
+        "time": 35,
+        "servings": 4,
+        "image": "https://i.pinimg.com/originals/33/16/1d/33161dbea95186b082c1bc183b4d2634.jpg",
+        "recipe_categories": [{
+            "category_id": 6
+        },{
+            "category_id": 1
+        },{
+            "category_id": 17        
+            }]
+    },
+    {
+        "recipe_name": "Chocolate Peanut Butter Cups",
+        "description": "These chocolate peanut butter cups are dangerously simple to make, with just a few ingredients that you probably have in the pantry right now. They come together faster than a trip to the convenience store. And they are completely customizable. Once you’ve gotten your fill of the standard peanut butter cup, try honey-sweetened cashew butter cups. Or cinnamon-spiked almond butter cups. Drizzle the finished cups with a bit of white or milk chocolate, some flaky sea salt or a sprinkle of finely chopped nuts for an upgraded presentation. Or sneak a tiny dollop of raspberry jam underneath the peanut butter layer for another delightfully classic pairing. The possibilities are endless.",
+        "user_id": 6,
+        "steps": ["Set 18 mini paper baking cups on a baking sheet. Melt 4 ounces of the chocolate either over a double boiler on the stove top or in short bursts in the microwave. Spoon 1 teaspoon of melted chocolate into each cup. Use an offset spatula or a small spoon to spread the chocolate slightly up the sides of each baking cup; make sure you have an even chocolate base at the bottom of each cup. Let cool at room temperature for about 15 to 20 minutes until mostly solid.", "Meanwhile, in a medium bowl, stir together peanut butter, confectioners’ sugar, vanilla extract and salt. (Make sure the peanut butter is well-combined in the jar before you measure it.) Transfer the peanut butter mixture to a resealable plastic bag and seal it tightly.", "Cut one corner of the plastic bag and pipe 2 to 3 teaspoons of peanut butter mixture into the center of each cup. With a very lightly moistened finger, tamp down the peanut butter and make it flat and even, but leave a bit of space between the peanut butter and the edge of the paper cup (you should be able to see a ring of chocolate peeking from below the peanut butter).", "Melt the remaining 5 ounces of chocolate. Spoon 1 teaspoon of chocolate onto the top of each cup. Use an offset spatula or a small spoon to spread the chocolate evenly over the top and down the sides of the cup. Refrigerate until solid, about 30 minutes."],
+        "ingredients": [" 9 ounces semisweet chocolate", "3/4 cup smooth natural peanut butter", "1/4 cup confectioners' sugar", "1/2 teaspoon vanilla extract", "1/2 teaspoon kosher salt"],
+        "time": 50,
+        "servings": 18,
+        "image": "https://www.eatingonadime.com/wp-content/uploads/2012/08/CHOCOLATE-PEANUT-BUTTER-CUPS-SQUARE.jpg",
+        "recipe_categories": [{
+            "category_id": 8
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Banana Bread",
+        "description": "This banana bread from Mark Bittman's How to Cook Everything is really something special. One-fourth of the flour is whole wheat, which contributes a kind of depth you’d miss if it weren’t there. There are walnuts — not unusual, but again, you’d miss them if they weren’t there, And the key, secret ingredient, is coconut. Which really puts the thing over the top.",
+        "user_id": 1,
+        "steps": ["Heat the oven to 350 degrees. Grease a 9- by 5-inch loaf pan.", "Mix together the dry ingredients. With a hand mixer, a whisk, or in the food processor, cream the butter and beat in the eggs and bananas. Stir this mixture into the dry ingredients; stir just enough to combine (it’s okay if there are lumps). Gently stir in the vanilla, nuts, and coconut.", "Pour the batter into the loaf pan and bake for 45 to 60 minutes, until nicely browned. A toothpick inserted into the center of the bread will come out fairly clean when it is done, but because of the bananas this bread will remain moister than most. Do not overcook. Cool on a rack for 15 minutes before removing from the pan."],
+        "ingredients": ["8 tablespoons (1 stick) butter, plus some for greasing the pan", "1 ½ cups all-purpose flour", "1/2 cup whole wheat flour", "1 teaspoon salt", "1 1/2 teaspoon baking powder", "3/4 cup sugar", "2 eggs", "3 very ripe bananas, mashed", "1/2 teaspoon vanilla extract", "1/2 cup chopped walnuts", "1/2 cup grated dried unsweetened coconut"],
+        "time": 60,
+        "servings": 6,
+        "image": "https://cdn.sallysbakingaddiction.com/wp-content/uploads/2018/10/moist-banana-bread.jpg",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Coconut Banana Pancakes",
+        "description": "Coconut and banana pair up in a heavenly way, especially for breakfast. Enter these delectable pancakes, in which a bit of coconut flour is swapped for the usual all-purpose flour. A generous helping of banana lends a rich creaminess to the cakes. Be sure to have extra butter to drizzle on top, and you'll probably want to double the recipe. They're that good.",
+        "user_id": 5,
+        "steps": ["Heat oven to 325 degrees. Whisk flours, sugar, baking powder, baking soda and kosher salt together in a mixing bowl. Using the whisk, make a well in the center. Pour the buttermilk into the well and crack eggs into buttermilk. Pour in the melted butter. Starting in the center, whisk everything together, moving toward the outside of the bowl, until no dry bits remain. Do not overbeat. (Lumps are fine.) Fold in banana slices. The batter can be refrigerated for up to 1 hour.", "Heat a large nonstick griddle or skillet, preferably cast iron, over low heat for about 5 minutes. Add 1 tablespoon oil to the skillet. Turn heat up to medium–low and using a measuring cup, ladle 1/3 cup batter into the skillet. If you are using a large skillet or a griddle, repeat once or twice, taking care not to overcrowd the cooking surface.", "Flip pancakes after bubbles rise to surface and bottoms brown, after about 2 to 4 minutes. Cook until the other sides are lightly browned. Remove pancakes to a wire rack set inside a rimmed baking sheet, and keep in heated oven until all the batter is cooked and you are ready to serve."],
+        "ingredients": ["1/2 cup coconut flour", "1 1/2 cups all-purpose flour", "3 tablespoons baking powder", "1 1/2 teaspoons baking powder", "1 1/2 teaspoons baking soda", "1 1/4 teaspoons salt", "2 1/2 cups buttermilk", "2 large eggs", "3 tablespoons butter, melted", "1 1/2 cups bananas cut into 1/2 inch slices", "coconut oil for skillet"],
+        "time": 15,
+        "servings": 4, 
+        "image": "https://littlespicejar.com/wp-content/uploads/2021/06/Coconut-Banana-Pancakes-5-1365x2048.jpg",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Mojito",
+        "description": "A classic cocktail that originated in Cuba, the mojito is a favorite summertime beverage worldwide. The mint and lime give it a cool, refreshing flavor, and the soda lightens it up with a fizzy crispness. There are many ways that you can switch up the flavor of the basic recipe, which makes it a fun cocktail to share with friends.",
+        "user_id": 3,
+        "steps": ["Muddle simple syrup and 2 mint sprigs in a cocktail shaker. Add rum and lime juice. Fill shaker with ice, cover, and shake vigorously until outside of shaker is very cold, about 20 seconds.", "Strain cocktail through a Hawthorne strainer or a slotted spoon into a tall Collins glass filled with ice. Top off with club soda; garnish with more mint."],
+        "ingredients": ["3/4 ounce simple syrup", "2 sprigs mint", "2 ounces white rum", "3/4 ounce fresh lime juice", " club soda for serving"],
+        "time": 5,
+        "servings": 1,
+        "image": "https://assets.bonappetit.com/photos/620ffe21d2721805fdcfbd31/1:1/w_2240,c_limit/20220215%20Mojito%20LEDE.jpg",
+        "recipe_categories": [{
+            "category_id": 9
+        }]
+    },
+    {
+        "recipe_name": "Brushetta Grilled Chicken",
+        "description": "This is the least basic grilled chicken has ever looked. Make it on repeat during summer — when tomatoes are at their peak. (Need other not-boring chicken breast ideas? We gotchu.)",
+        "user_id": 4,
+        "steps": ["In a small bowl, combine oil, half the lemon juice, 1 teaspoon salt, 1/4 teaspoon pepper, and Italian seasoning (or oregano) and whisk to combine. Transfer to a large re-sealable bag along with chicken; seal and refrigerate for 30 minutes.", "Heat grill over medium-high then add chicken, discarding excess marinade. Grill until charred and cooked to an internal temperature of 165°, about 5 to 7 minutes per side.", "Meanwhile, combine tomatoes, garlic, basil, and remaining lemon juice, and season with salt and pepper. While chicken is still on grill, top each breast with 1 slice mozzarella and cover until cheese is melted, 2 to 3 minutes. Top chicken with tomato mixture.", "Garnish with Parmesan and serve"],
+        "ingredients": ["4 tablespoons extra virgin olive oil", "Juice of 1 lemon, divided", "Salt", "Freshly ground black pepper", "1 teaspoon Italian seasoning or dried oregano", "4 boneless skinless chicken breasts", "3 slicing tomatoes, chopped", "2 cloves garlic, minced", "1 tablespoon freshly chopped basil", "4 slices mozzarella", "Freshly grated Parmesan, for serving"],
+        "time": 50,
+        "servings": 4,
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/23/1496939954-bruschetta-chicken-1sm.jpg?crop=1.0xw:1xh;center,top&resize=768:*",
+        "recipe_categories": [{
+            "category_id": 1
+        },{
+            "category_id": 14
+        },{
+            "category_id": 6
+            }]
+    },
+    {
+        "recipe_name": "Baked Feta Pasta",
+        "description": "This is the story about another viral TikTok trend that I kinda sorted wanted to hate...but didn't. It's not that I didn't think the idea sounded delicious. It's just that the whole thing seemed too simple. Obviously roasting a block of feta with bursting tomatoes is going to be amazing. But is it good enough to break the internet?",
+        "user_id": 7,
+        "steps": ["Preheat oven to 400°. In a large ovenproof skillet or medium baking dish, combine tomatoes, shallot, garlic, and all but 1 tablespoon oil. Season with salt and red pepper flakes and toss to combine.", "Place feta into center of tomato mixture and drizzle with remaining 1 tablespoon oil. Scatter thyme sprigs over tomatoes. Bake for 40 to 45 minutes, until tomatoes are bursting and feta is golden on top.", "Meanwhile, in a large pot of boiling salted water, cook pasta until al dente according to package directions. Reserve ½ cup pasta water before draining.", "To skillet with tomatoes and feta, add cooked pasta, reserved pasta water, and lemon zest (if using) and stir until combined. Garnish with basil."],
+        "ingredients": ["2 pints grape tomatoes", "1 shallot, quartered", "3 cloves garlic, smashed", "1/2 cup extra-virgin olive oil", "Salt", "Pinch crushed red pepper flakes", "1 8 oz block feta", "3 sprigs fresh thyme", "10 oz pasta", "Zest of 1 lemon", "Fresh basil, for garnish"],
+        "time": 45,
+        "servings": 4,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-210212-feta-pasta-004-ab-1613747028.jpg",
+        "recipe_categories": [{
+            "category_id": 6
+        },{
+            "category_id": 1
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Cheesy Chicken Enchiladas",
+        "description": "These Easy Chicken Enchiladas make the best Mexican dinner ever! They’re stuffed with shredded chicken and cheese, topped with an easy red enchilada sauce and baked for 20 minutes. This homemade classic is an all-time family favorite that’s great for easy weeknight meals.",
+        "user_id": 2,
+        "steps": ["In a medium saucepan, toss together the cheese and cornstarch. Add the milk and chile and bring the mixture to a simmer, stirring constantly. Season with salt and pepper to taste.", "In a large heavy skillet, heat the oil over medium high heat until hot, then stir in the on-ion, garlic, 1/2 teaspoon salt and 1/4 teaspoon pepper and cook, stirring occasionally, until golden, about 6 minutes. Stir in the chicken and cook until the chicken is cooked, about 5 minutes. Season the filling with salt and pepper to taste.", "Preheat the oven to 350°F. Divide the filling between the tortillas. Roll each tortilla into a cylinder and place, side-by-side in a baking dish. Pour the cheese sauce over the tortillas and bake until hot, about 15 minutes. Sprinkle the cilantro over the enchiladas and serve."],
+        "ingredients": ["8 ounces shredded extra-sharp cheddar cheese", "1 tablespoon cornstarch", "1 1/4 cups whole milk", "1 tablespoon chopped hot red chile", "2 tablespoons extra-virgin olive oil", "1 small onion", "2 garlic cloves, finely-chopped", "2 (6 ounce) boneless chicken breasts, skinless, cut into chunks", "Salt", "Freshly ground black pepper", "8 flour tortillas", "Cilantro sprigs for serving"], 
+        "time": 50,
+        "servings": 4,
+        "image": "https://www.isabeleats.com/wp-content/uploads/2020/05/chicken-enchiladas-2020-small-3.jpg",
+        "recipe_categories": [{
+            "category_id": 1
+        },{
+            "category_id": 7
+        },{
+            "category_id": 14
+        }]
+    },
+    {
+        "recipe_name": "Cinnamon Baked Donuts",
+        "description": "Wake up to warm baked cinnamon sugar donuts! Ready in 50 minutes, this simple from-scratch recipe yields perfectly spiced and ultra moist donuts. Always a crowd pleaser, I recommend making a double batch for larger gatherings.",
+        "user_id": 6,
+        "steps": ["Preheat the oven to 350 degrees. Spray 2 doughnut pans well.", "Into a large bowl, sift together the flour, sugar, baking powder, cinnamon, nutmeg, and salt. In a small bowl, whisk together the egg, milk, melted butter, and vanilla. Stir the wet mixture into the dry ingredients until just combined.", "Spoon the batter into the baking pans, filling each one a little more than three-quarters full. Bake for 17 minutes, until a toothpick comes out clean. Allow to cool for 5 minutes, then tap the doughnuts out onto a sheet pan.", "For the topping, melt the 8 tablespoons of butter in an 8-inch saute pan. Combine the sugar and cinnamon in a small bowl. Dip each doughnut first in the butter and then in the cinnamon sugar, either on one side or both sides."],
+        "ingredients": ["Baking spray", "2 cups all purpose flou", "1 1/2 cups sugar", "2 teaspoons baking powder", "1 teaspoon ground cinnamon", "1/2 teaspoon ground nutmeg", "1/2 teaspoon salt", "1 egg, lightly beaten", "1 1/4 cups whole milk", "2 tablespoons unsalted butter, melted", "2 teaspoons pure vanilla extract", "8 tablespoons unsalted butter, for topping", "1/2 cup sugar, for topping", "1/2 teaspoon ground cinnamon, for topping"],
+        "time": 50,
+        "servings": 12, 
+        "image": "https://bakingmischief.com/wp-content/uploads/2017/08/cinnamon-sugar-baked-pumpkin-donuts-image-square.jpg",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Breakfast Burritos with Chorizo",
+        "description": "Start your day with our delicious and filling chorizo breakfast burritos! Flour tortillas loaded with spicy sausage, seasoned potatoes, scrambled eggs and Monterey Jack cheese.",
+        "user_id": 5,
+        "steps": ["Preheat the broiler. Put the tomatillos, jalapeno and red onion on a baking sheet and broil, turning once, until tender and charred in spots, about 10 minutes. Transfer the vegetables to a blender and add the cilantro, lime juice, 1/4 cup water, 3/4 teaspoon salt and a few grinds of pepper; puree until smooth.", "Meanwhile, cook the chorizo in a large nonstick skillet over medium-high heat, stirring occasionally, until crisp, about 2 minutes. Remove to a large bowl with a slotted spoon. Add the potatoes to the drippings in the skillet; cover and cook, stirring halfway through, until golden brown and warmed through, 8 to 10 minutes. Add to the bowl with the chorizo and stir.", "Add the eggs to the skillet and cook over medium heat, stirring, until scrambled, about 1 minute. Transfer to a bowl and cover. Wipe out the skillet and add the beans; warm through. Season with salt and pepper. Spread the beans in the center of each tortilla and top with the potatoes, chorizo, eggs and cheese. Fold the bottom edge of the tortilla over the filling, then fold in the sides and roll up. Serve with the tomatillo salsa."],
+        "ingredients": ["2 medium tomatillos, husked and rinsed", "1 jalepeno pepper", "1 small red onion", "2 cups roughly chopped fresh cilantro", "Juice of 1 lime", "Salt and freshly ground pepper", "4 ounces dried chorizo, thinly sliced", "3 1/2 cups diced hashbrown potatoes", "4 large eggs, lightly beaten", "1 16 ounce can refried beans", "4 flour tortillas", "1 cup shredded monterrey jack cheese"],
+        "time": 40,
+        "servings": 4,
+        "image": "https://www.aberdeenskitchen.com/wp-content/uploads/2016/07/Chorizo-Breakfast-Burritos-8.jpg",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 7
+        }]
+    },
+    {
+        "recipe_name": "Blueberry Coffee Cake Muffins",
+        "description": "Sharing a Tuesday treat with these (better than the bakery) Blueberry Swirl Coffee Cake Muffins. Moist blueberry muffins studded with fresh blueberries, swirled with blueberry jam, topped with double the cinnamon streusel, and served warm, fresh out of the oven, with a generous smear of butter. Perfect for all of the delicious spring and summer berries coming into season!",
+        "user_id": 6,
+        "steps": ["Preheat the oven to 350 degrees F. Place 16 paper liners in muffin pans.", "In the bowl of an electric mixer fitted with the paddle attachment, cream the butter and sugar until light and fluffy, about 5 minutes. With the mixer on low speed, add the eggs 1 at a time, then add the vanilla, sour cream, and milk. In a separate bowl, sift together the flour, baking powder, baking soda, and salt. With the mixer on low speed add the flour mixture to the batter and beat until just mixed. Fold in the blueberries with a spatula and be sure the batter is completely mixed.", "Scoop the batter into the prepared muffin pans, filling each cup just over the top, and bake for 25 to 30 minutes, until the muffins are lightly browned on top and a cake tester comes out clean."],
+        "ingredients": ["12 tablespoons unsalted butter", "1 1/2 cups sugar", "3 extra large eggs", "1 1/2 teaspoons pure vanilla extract", "8 ounces sour cream", "1/4 cup milk", "2 1/2 cups all-purpose flour", "2 teaspoons baking powder", "1/2 teaspoon baking soda", "1/2 teaspoon salt", "2 half-pints fresh blueberris"],
+        "time": 40,
+        "servings": 16,
+        "image": "https://aclassictwist.com/wp-content/uploads/2015/08/Blueberry-Coffee-Cake-Muffins_3.jpg",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Homemade Cinnamon Rolls",
+        "description": "There is nothing better than pillowy soft, gooey-in-the-middle, smothered in cream cheese frosting, homemade cinnamon roll. These perfect cinnamon rolls taste even BETTER than a Cinnabon.",
+        "user_id": 5,
+        "steps": ["In a large bowl combine 2 cups of the flour, yeast, salt and sugar in a bowl. Mix to combine.", "In a microwave safe bowl, microwave the milk and butter for 30 seconds until warm and the butter is mostly melted. The mixture should be warm, but not hot. If it is too hot, make sure to let it cool before adding to the yeast to prevent killing the yeast. Add the warm milk and butter to the flour mixture.", "Add the egg.", "Beat on low speed, gradually increasing to high until completely combined, about 2 minutes.", "Scrape down the bowl and add 1 more cup of flour, beating until combined. Add the remaining cup of flour in a little at a time until the dough starts to pull away from the sides of the bowl and form a ball.", "Turn the dough out onto a well floured surface and knead for about 10 minutes until smooth and you can stretch a piece of dough out between your fingers without it breaking. This means the gluten has developed and your dough will be pillowy soft.", "Transfer the dough to an oiled bowl and cover. Let rise in a warm place for 1 hour or until the dough has doubled in size.", "While the dough rises, make the filling. Combine the sugar, cinnamon, and salt together in a small bowl and mix well. Set aside.", "Once the dough has risen, roll it out into a long rectangle about 18 x 12 inches on a well floured surface.", "Spread the butter for the filling all the way to the edge of the dough. Sprinkle the sugar mixture over the butter, pressing it down to stick to the butter.", "From the long end, roll the dough away from you into a tight roll, sealing the bottom edge down by pinching the dough together.", "Use floss or a very sharp knife to cut the dough into 12 even rolls. Place the rolls in a 9 x 13 inch pan lined with parchment paper. Cover loosely with a dish cloth and allow to rise for another hour until doubled in size and puffed up.", "Bake the cinnamon rolls at 350°F for 30 minutes or until they are golden brown and no longer doughy. Allow to cool.", "While the rolls cool, make the cream cheese frosting. In a stand mixer fit with the whisk attachment combine the cream cheese, butter, powdered sugar, milk, salt, and vanilla extract.Beat on low speed, gradually increasing to high until light and fluffy. Spread the icing evenly over the 12 rolls. Enjoy warm!"],
+        "ingredients": ["4 cups all purpose flour", "1/3 cup sugar", "1 packet rapid rise instant yeast", "1 teaspoon salt", "1 1/2 cups milk", "6 tablespoons butter", "1 egg", "1/4 cup butter, for filling", "2/3 cup light brown sugar, for filling", "1 tablespoon cinnamon", "4 ounces cream cheese", "1/2 cup unsalted butter", "1/2 cup salted butter, for frosting", "3 cups powdered sugar", "2-3 tablespoons milk for frosting", "1 teaspoon vanilla extract"],
+        "time": 120,
+        "servings": 12,
+        "image": "https://bromabakery.com/wp-content/uploads/2022/01/Perfect-Cinnamon-Rolls-10.jpg",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Huevos Rancheros",
+        "description": "Runny, fried eggs over a bed of seasoned beans, atop a layer of warm corn tortillas, add a few condiments and voila! Homemade huevos rancheros!",
+        "user_id": 2,
+        "steps": ["In a medium sized skillet add black beans, 1 1/2 cups salsa and salt. Stir mixture and bring to a simmer. Continue to cook until most of the liquid has absorbed, about 5-7 minutes.", "In a dry skillet set over medium heat, warm each tortilla until soft and edges begin to brown.", "On a plate add tortillas, top with 1 cup of the bean mixture and a fried egg. Garnish with additional salsa, cotija cheese, cilantro, avocado, and hot sauce if desired. Continue with the remaining servings and serve warm."],
+        "ingredients": ["2 15 ounce cans black beans", "1 1/2 cups medium salsa", "1/2 teaspoon salt", "8 corn tortillas", "4 eggs, fried over medium", "cojita cheese", "cilantro", "avocado", "hot sauce"],
+        "time": 15,
+        "servings": 4,
+        "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2017/Huevos-Rancheros-5.jpg?w=667&auto=compress%2Cformat&fit=crop&dm=1610376506&s=f86af203e27f5e1679ecfde173b35683",
+        "recipe_categories": [{
+            "category_id": 3
+        },{
+            "category_id": 7
+        }]
+    },
+    {
+        "recipe_name": "Mediterranean Grilled Chicken Salad",
+        "description": "Grilled chicken salad—filled with cucumbers, tomatoes, and avocado—is the healthy summer dinner recipe we tend to make again and again. If you're vegetarian, try subbing in hard boiled eggs for the chicken!",
+        "user_id": 1,
+        "steps": ["Heat grill to medium-high. Season chicken with coriander, oregano, salt, and pepper. Grill, covered, turning halfway through, until golden and no longer pink, 18 to 22 minutes. Let rest 5 minutes, then slice.", "Meanwhile, make dressing. Whisk olive oil, red wine vinegar, and parsley in a small bowl and season with salt and pepper.", "Divide lettuce, cucumbers, tomatoes, avocado, feta, and olives among four serving bowls. Top with sliced chicken, then drizzle with dressing."],
+        "ingredients": ["2 boneless skinless chicken breasts", "1 teaspoon ground coriander", "1 tsp. dried oregano", "Salt", " Freshly ground black pepper", "5 tablespoons extra-virgin olive oil", "4 tablespoons red wine vinegar", "1 tablespoon freshly chopped parsley", "4 romaine hearts, chopped", "3 Persian cucumbers, thinly sliced", "1 cup grape or cherry tomatoes, halved", "2 avocados, sliced", "4 ounces feta, crumbled", "1/2 cup pitted kalamata olives, halved"],
+        "time": 30,
+        "servings": 4,
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-grilled-chicken-salad-1528303935.jpg?resize=980:*",
+        "recipe_categories": [{
+            "category_id": 2
+        },{
+            "category_id": 5
+        },
+        {
+            "category_id": 11
+        }]
+    },
+    {
+        "recipe_name": "Hummus",
+        "description": "The best hummus is lusciously creamy, yet somehow light and fluffy. It’s beautifully smooth and swirled, and begging to be scooped up onto a wedge of pita bread. It’s nutty and tangy, thanks to the tahini, with notes of bright, fresh lemon and mellow garlic.",
+        "user_id": 4,
+        "steps": ["In a high-speed blender, place the chickpeas, tahini olive oil, lemon juice, garlic, and salt. Use the blender baton to blend until very smooth, adding water as needed to blend, and/or to reach your desired consistency.", "Transfer to a serving plate, top with desired garnishes and serve with warm pita and veggies, as desired."],
+        "ingredients": ["1 1/2 cups cooked chickpeas, drained and rinsed", "1/3 cup smooth tahini", "2 tablespoons extra-virgin olive oil", "2 tablespoons fresh lemon juice, more to taste", "1 garlic clove", "½ teaspoon sea salt", "5 tablespoons water, or as needed to blend", "paprika, red pepper flakes, or parsley, for garnish", "warm pita bread and/or veggies, for serving"],
+        "time": 10,
+        "servings": 8,
+        "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/hummus.jpg",
+        "recipe_categories": [{
+            "category_id": 12
+        },{
+            "category_id": 5
+        },
+        {
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Oven Baked Frech Fries",
+        "description": "These are the BEST oven baked French fries that taste just like a restaurant! They come out crispy and perfectly seasoned: no need for frying.",
+        "user_id": 6,
+        "steps": ["Preheat the oven to 425 degrees Fahrenheit. Evenly space the oven racks to ensure even cooking.", "Wash the potatoes, leaving the skins on. Slice off the ends of each potato, then slice off part of the side to make a base. Place the potato half cut side down and cut off a 3/8-inch slice, then lay the slice on its side and cut it into several long strips. Repeat until all potatoes have been cut into fries. The pieces can be uneven, but aim for as uniform of thickness as possible. See the video for full instructions!", "Soak in cold water (10 minutes): Place the cut fries into a medium bowl and rinse with cold water until water is clear. Then fill the bowl with cold water and allow to rest for 10 minutes (while the oven preheats). Then drain the potatoes and dry them thoroughly with a clean dish towel.", "Season the fries: Add the fries to a dry bowl and toss them with the olive oil, smoked paprika, garlic powder, Old Bay, black pepper, and kosher salt. Line two baking sheets with parchment paper. Spread the fries in straight lines on the paper, placing them as far apart as possible.", "Bake: Bake the fries for 20 minutes. Take them out of the oven and carefully flip each fry. Return to oven (reversing the pans on top and bottom racks). Bake additional 8 to 10 minutes until they are crisp and golden brown, watching carefully as the bake time depends on the fry thickness and your oven. (If the majority of the fries seem soft, continue to bake a few more minutes.)", "Taste and add a few more pinches salt if desired. Serve immediately for the best texture and flavor."],
+        "ingredients": ["2 large russet potatoes", "2 tablespoons extra-virgin olive oil", "1/2 teaspoon smoked paprika", "1/2 teaspoon garlic", "1/2 teaspoon Old Bay seasoning", "1/4 teaspoon ground black pepper", "1/2 teaspoon salt"],
+        "time": 30,
+        "servings": 3,
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2020/07/Seasoned-Fries-004.jpg",
+        "recipe_categories": [{
+            "category_id": 4
+        },{
+            "category_id": 17
+        },
+        {
+            "category_id": 18
+        }]
+    },
+    {
+        "recipe_name": "Garlic Butter Steak Bites",
+        "description": "Garlic butter steak bites are everything you love about a steakhouse steak, with none of the work. Instead of cooking a whole steak, making a pan sauce, slicing the steak, and dipping into said sauce, these pieces of New York strip steak get cooked in a gorgeous garlic butter that’s built in the same pan the steak is cooked in. Pretty ingenious, right? Here’s how you can have perfect steakhouse bites any night of the week.",
+        "user_id": 8,
+        "steps": ["Mince 4 garlic cloves. Transfer to a bowl and add 1/2 teaspoon black pepper. Chop until you have 1/4 cup fresh parsley leaves, then transfer to a small bowl. Cut 2 pounds New York strip steak into 1-inch cubes, then season them with 1/2 teaspoon kosher salt.", "Melt 8 tablespoons (1 stick) unsalted butter in a large skillet over medium high-heat. Add the steak cubes and sear until browned, flipping them halfway through, 6 to 8 minutes total. Add the garlic and pepper and cook for 1 minute more. Remove from the heat and garnish with the parsley."],
+        "ingredients": ["4 garlic cloves", "1/2 teaspoon freshly ground black pepper", "1/4 cup chopped fresh parsley leaves", "2 pounds thick-cut New York strip steaks", "1/2 teaspoon salt", "1 stick unsalted butter, 8 tablespoons"],
+        "time": 25,
+        "servings": 4,
+        "image": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_1460,h_1825/k%2FPhoto%2FSeries%2F2019-09-snapshot-cooking-garlic-butter%2F2019-09-04_Kitchn83894_",
+        "recipe_categories": [{
+            "category_id": 1
+        },{
+            "category_id": 15
+        },
+        {
+            "category_id": 18
+        }]
+    },
+    {
+        "recipe_name": "Garlic Shrimp Stir Fry",
+        "description": "Garlic Shrimp Stir Fry is one of the easiest meals that is packed with so many delicious veggies and shrimp. Glazed in the most amazing garlic sauce, this will become an instant favorite! ",
+        "user_id": 7,
+        "steps": ["In a small bowl whisk together the soy sauce, garlic, brown sugar, and sesame oil. In a medium-sized skillet over medium-high heat add the shrimp, peppers, and carrots and pour the sauce on top. Cook for about 2-3 minutes or until shrimp is pink.", "Whisk the chicken broth and cornstarch in a small bowl and add it to the skillet with the broccoli and sugar snap peas. Stir until incorporated and then cover and cook 3-5 minutes or until broccoli is tender and the sauce has thickened. Serve with chopped green onions and serve over rice if desired."],
+        "ingredients": ["1/4 cup soy sauce", "3 garlic cloves, minced", "3 tablespoons brown sugar", "1 teaspoon sesame oil", "1 pound large shrimp, peeled and deveined", "1 red bell pepper, sliced", "1/2 cup carrots, shredded", "3/4 cup chicken broth", "1 teaspoon cornstarch", "2 cups broccoli florets", "1 cup sugar snap peas", "Sliced green onion for garnish"],
+        "time": 15,
+        "servings": 4,
+        "image": "https://www.acouplecooks.com/wp-content/uploads/2021/03/Shrimp-Stir-Fry-076.jpg",
+        "recipe_categories": [{
+            "category_id": 1
+        },{
+            "category_id": 16
+        },
+        {
+            "category_id": 18
+        }]
+    },
+    {
+        "recipe_name": "Hummus Avocado Wrap",
+        "description": "Avocado toast may be the latest food trend, but vegans and Californians who love avocado have been adding avocado to sandwiches, toasts, and wraps for decades. So if you're looking for the perfect way to make an avocado wrap vegan, or use up some leftover guacamole, this wrap sandwich may be one delicious way to do so. Try this vegan California-style avocado hummus wrap recipe. It's loaded with hummus, avocado, alfalfa sprouts, tomatoes, and cucumbers.",
+        "user_id": 4,
+        "steps": ["Gather the ingredients.", "Bring flour tortilla to room temperature.", "Spread hummus down the middle of the flour tortilla.", "Arrange avocado, alfalfa sprouts, tomato, and cucumber (if using) on top of hummus and fold up into a sandwich wrap."],
+        "ingredients": ["1 flour tortilla", "3 tablespoons hummus", "1/4 avocado, thinly sliced", "1/3 cup alfafa sprouts", "2 to 4 slices tomato", "4 slices cucumber, optional"],
+        "time": 5,
+        "servings": 1,
+        "image": "https://www.thespruceeats.com/thmb/ajfcfXJ8KXb8XrT7WLHfq_4oKW0=/2668x2001/smart/filters:no_upscale()/vegan-avocado-wrap-sandwich-with-hummus-3377621-hero-01-6945a100b88d4271b0debb161dc7350a.jpg",
+        "recipe_categories": [{
+            "category_id": 5
+        },{
+            "category_id": 2
+        },
+        {
+            "category_id": 17
+        }]
+    },
+    {
+        "recipe_name": "Cacio e Pepe",
+        "description": "Literally “cheese and pepper,” this minimalist cacio e pepe recipe is like a stripped-down mac and cheese.",
+        "user_id": 6,
+        "steps": ["Bring 3 quarts water to a boil in a 5-qt. pot. Season with salt; add pasta and cook, stirring occasionally, until about 2 minutes before tender. Drain, reserving 3/4 cup pasta cooking water.", "Meanwhile, melt 2 Tbsp. butter in a Dutch oven or other large pot or skillet over medium heat. Add pepper and cook, swirling pan, until toasted, about 1 minute.", "Add ½ cup reserved pasta water to skillet and bring to a simmer. Add pasta and remaining butter. Reduce heat to low and add Grana Padano, stirring and tossing with tongs until melted. Remove pan from heat; add Pecorino, stirring and tossing until cheese melts, sauce coats the pasta, and pasta is al dente. (Add more pasta water if sauce seems dry.) Transfer pasta to warm bowls and serve."],
+        "ingredients": ["Salt", "6 ounces pasta", "3 tablespoons unslated butter, cubed", "1 teaspoon freshly cracked black pepper", "3/4 cup finely grated Grana Padano or Parmesan", "1/3 cup finely grated Pecorino"],
+        "time": 30,
+        "servings": 2,
+        "image": "https://cdn.apartmenttherapy.info/image/upload/v1579294251/k/Photo/Recipes/2020-02-How-To-Cacio-e-Pepe/HT-Cacio-e-Pepe_027.jpg",
+        "recipe_categories": [{
+            "category_id": 1
+        },{
+            "category_id": 6
+        },
+        {
+            "category_id": 18
+        }]
+    },
+    {
+        "recipe_name": "French Bread Pizza",
+        "description": "French bread pizza brings many of us back to our childhood, making frozen versions on our own in a toaster oven. Return to those simpler days with this delicious, easy, super crunchy version. The secret to making the best French bread pizza is toasting the bread before adding your toppings—this ensures no more soggy bread.",
+        "user_id": 1,
+        "steps": ["Gather the ingredients. Preheat oven to 425.", "Stir the garlic, melted butter, olive oil, and half of the chopped parsley together in a small bowl.", "Lay the pieces of bread out on a sheet tray. Top the French bread pieces with the butter mixture, completely coating the top of each piece.", "Bake the bread in the preheated oven on the center rack for about 3 to 5 minutes or until the tops are golden brown and crisp.", "Remove the bread from the oven, and top each one with your desired amount of sauce.", "Top with an equal amount of mozzarella and parmesan cheese and pepperoni. Return to the oven and bake for about 5 to 7 minutes or until the cheese is melted and slightly browned.", "Remove from the oven and top with remaining chopped parsley.", "Serve immediately with extra Parmesan cheese"],
+        "ingredients": ["2 cloves garlic", "1 tablespoon unsalted butter, melted", "2 tablespoons olive oil", "1 tablespoon chopped fresh parsley, divided", "1/2 loaf French bread, sliced in half lengthwise", "1 cup pizza sauce", "1 cup shredded mozzarella cheese", "2 teaspoons grated Parmesan cheese", "12 slices pepperoni"],
+        "time": 20,
+        "servings": 4,
+        "image": "https://www.thelittleepicurean.com/wp-content/uploads/2017/07/french-bread-pizza-1.jpg",
+        "recipe_categories": [{
+            "category_id": 2
+        },{
+            "category_id": 6
+        },
+        {
+            "category_id": 18
+        }]
+    }
+
+]

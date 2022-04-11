@@ -1,0 +1,47 @@
+[
+    {
+        "user_name": "meganann201",
+        "email": "megan@gmail.com",
+        "secret_key": "1234"
+    },
+    {
+        "user_name": "veronica305",
+        "email": "veronica@gmail.com",
+        "secret_key": "2345"
+    },
+    {
+        "user_name": "rangerdanger",
+        "email": "ranger@gmail.com",
+        "secret_key": "3456"
+    },
+    {
+        "user_name": "ericr",
+        "email": "eric@gmail.com",
+        "secret_key": "4567"
+    },
+    {
+        "user_name": "foodie305",
+        "email": "foodie@gmail.com",
+        "secret_key": "5678"
+    },
+    {
+        "user_name": "danny",
+        "email": "danny@gmail.com",
+        "secret_key": "6789"
+    },
+    {
+        "user_name": "roberto",
+        "email": "robert@gmail.com",
+        "secret_key": "7890"
+    },
+    {
+        "user_name": "kennedy111",
+        "email": "ken@gmail.com",
+        "secret_key": "abcd"
+    },
+    {
+        "user_name": "donutlover",
+        "email": "donuts@gmail.com",
+        "secret_key": "lmno"
+    }
+]

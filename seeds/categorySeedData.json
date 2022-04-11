@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "category_name": "Dinner"
+  },
+  {
+    "id": 2,
+    "category_name": "Lunch"
+  },
+  {
+    "id": 3,
+    "category_name": "Breakfast"
+  },
+  {
+    "id": 4,
+    "category_name": "Sides"
+  },
+  {
+    "id": 5,
+    "category_name": "Healthy"
+  },
+  {
+    "id": 6,
+    "category_name": "Italian"
+  },
+  {
+    "id": 7,
+    "category_name": "Mexican"
+  },
+  {
+    "id": 8,
+    "category_name": "Dessert"
+  },
+  {
+    "id": 9,
+    "category_name": "Drinks"
+  },
+  {
+    "id": 10,
+    "category_name": "Appetizers"
+  },
+  {
+    "id": 11,
+    "category_name": "Salads"  
+  },
+  {
+    "id": 12,
+    "category_name": "Snacks"  
+  },
+  {
+    "id": 14,
+    "category_name": "Poultry"  
+  },
+  {
+    "id": 15,
+    "category_name": "Beef"  
+  },
+  {
+    "id": 16,
+    "category_name": "Seafood"  
+  },
+  {
+    "id": 17,
+    "category_name": "Vegetarian"  
+  },
+  {
+    "id": 18,
+    "category_name": "Quick"
+  }
+]
