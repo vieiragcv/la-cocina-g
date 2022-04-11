@@ -1,0 +1,175 @@
+<section class="container shadow p-3 mb-5 bg-white rounded mt-4 dashboard">
+<div>
+  <h5 class="card-title text-center">Create A New Recipe</h5>
+
+  <form class="new-recipe-form" id="addRecipeForm">
+            {{!-- RECIPE NAME --}}
+    <div class="form-group col-4">
+      <label for="recipe-name" class="col-sm-2 col-form-label text-nowrap">Recipe Name</label>
+        <input class="form-control" type="text"  id="recipe-name" name="recipe-name" placeholder="My Special Plate" />
+    </div>
+            {{!-- RECIPE DESCRIPTION --}}
+    <div class="form-group col-6">
+      <label for="recipe-description" class="col-sm-2 col-form-label">Description</label>
+        <textarea class="form-control" type="text" id="recipe-description" rows="5" name="recipe-description" placeholder="Some Tasty Details"></textarea>
+    
+    </div>
+            {{!-- RECIPE STEPS --}}
+    <div class="form-group col-6">
+      <label for="recipe-steps" class="col-sm-2 col-form-label">Steps</label>
+        <textarea type="text" id="recipe-steps" name="recipe-steps" class="form-control" rows="4"></textarea>
+    </div>
+            {{!-- RECIPE INGREDIENTS --}}
+   <div class="form-group col-6">
+      <label for="recipe-ingredients" class="col-sm-2 col-form-label">Ingredients</label>
+   
+        <textarea type="text" id="recipe-ingredients" name="recipe-ingredients" class="form-control" rows="4"></textarea>
+   
+    </div>
+            {{!-- RECIPE COOK TIME --}}
+    <div class="form-group col-4">
+      <label for="cook-time">Time</label>
+        <input type="number" id="recipe-cook-time" name="recipe-cook-time" placeholder="Cook Time" class="form-control" />
+        </div>
+    
+
+            {{!-- RECIPE SERVINGS --}}
+
+    <div class="form-group col-4">
+      <label for="servings">Servings</label>
+        <input type="servings" class="form-control" id="recipe-servings" name="recipe-servings" placeholder="Serving Size">
+    </div>
+     <div class="form-group col-4">
+      <label for="image">Image</label>
+        <input type="text" class="form-control" id="recipe-image" name="recipe-image" placeholder="Upload image link">
+    </div>
+    
+
+            {{!-- RECIPE CATEGORIES --}}
+
+    <div class="form-group row">
+      <div class="col-sm-2 col-form-label">Categories
+      </div>
+      <div class="col-sm-4 col-form-label">
+        <div class="col-sm-2">
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Breakfast
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Lunch
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Dinner
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Appetizers
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Desserts
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Drinks
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Quick
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Vegetarian
+            </label>
+          </div>
+        </div>
+      </div>
+
+              {{!-- SUBMIT RECIPE --}}
+      <div class="col-sm-2 col-form-label">
+        <button type="submit" class="btn btn-primary">Add Recipe</button>
+      </div>
+    </div>
+  </form>
+</section>
+
+
+
+<section class="container">
+  <h2 class="recipe-title">Your Recipes</h2>
+  <ol>
+    {{#each recipes as |recipe|}}
+    <div class="container">
+    <div class="row">
+        <div class="col-4">
+          <a href="/recipe/{{this.id}}">
+            <img class="img-fluid rounded mt-1 mb-1 shadow p-3 mb-1 bg-white rounded" src="{{recipe.image}}" alt="">
+         </a>
+        </div>
+        <div class="col-6 align-self-center shadow p-3 mb-5 bg-white rounded mt-5">
+            <h2 class="recipe-title">{{recipe.recipe_name}}</h2>
+            <p class="recipe-description">
+                {{recipe.description}}
+            </p>
+            <div class="row border-bottom d-flex justify-content-center">
+                <div class="col-4">
+                    <p><i class="fa-solid fa-clock-rotate-left"></i> Total Time</p>
+                    <p>{{recipe.time}} minutes</p>
+                </div>
+                <div class="col-4">
+                    <p> <i class="fa-solid fa-users"></i> Yield</p>
+                    <p>Serves {{recipe.servings}} </p>
+                </div>
+              <a class="btn-danger text-nowrap" onclick="handleDeleteRecipe({{recipe.id}})">Delete Recipe</a>
+            </div>
+        </div>
+    </div>
+</div>
+    {{/each}}
+  </ol>
+</section>
+
+<script src="https://upload-widget.cloudinary.com/global/all.js" type="text/javascript"></script>  
+<img  id="uploadedimage" src=""></img> 
+<script src="/javascript/add-recipe.js" type="text/javascript"></script>
+<script src="/javascript/delete-recipe.js" type="text/javascript"></script>

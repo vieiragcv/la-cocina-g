@@ -1,0 +1,113 @@
+<div class="container">
+    <div class="row d-flex justify-content-between">
+        <div class="col-5">
+            <img class="img-fluid rounded mt-5 mb-5 shadow p-3 mb-5 bg-white rounded" src="{{recipe.image}}" alt="">
+        </div>
+        <div class="col-6 align-self-center shadow p-5 mb-5 bg-white rounded mt-5">
+            <h2 class="recipe-title">{{recipe.recipe_name}}</h2>
+            <p class="recipe-description">
+                {{recipe.description}}
+            </p>
+            <div class="row border-bottom d-flex justify-content-center">
+                <div class="col-4">
+                    <p><i class="fa-solid fa-clock-rotate-left"></i> Total Time</p>
+                    <p>{{recipe.time}} minutes</p>
+                </div>
+                <div class="col-4">
+                    <p> <i class="fa-solid fa-users"></i> Yield</p>
+                    <p>Serves {{recipe.servings}} </p>
+                </div>
+            </div>
+            <div class="row pt-3 d-flex justify-content-center">
+                <div class="col-4 align-self-center">
+                    <p>Created by <span class="text-highlight"> {{ recipe.user.user_name }} </span></p>
+                </div>
+                <div class="col-4">
+                    {{#if loggedIn}}
+                    <div id="add-favorite-btn" {{#if recipe.favorites}}class="d-none" {{/if}}>
+                        <button class="btn-primary" onclick="handleAddFavorite({{recipe.id}})">Add To Favorites</button>
+                    </div>
+                    <div id="remove-favorite-btn" {{#unless recipe.favorites}}class="d-none" {{/unless}}>
+                        <button class="btn-primary" onclick="handleRemoveFavorite({{recipe.id}})">Remove From
+                            Favorites</button>
+                    </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center border-bottom shadow p-3 mb-5 bg-white rounded">
+        <div class="col-md-7 font-weight-bold" id="instructions">
+            <div class="border-bottom border-dark">
+                <h5>Instructions</h5>
+            </div>
+            <ol class="pt-3">
+                {{#each recipe.steps}}
+                <li class="pb-2">{{this}}</li>
+                {{/each}}
+            </ol>
+        </div>
+        <div class="col-md-3" id="ingredients">
+            <div class="border-bottom border-dark">
+                <h5>Ingredients</h5>
+            </div>
+            <ul class="pt-3">
+                {{#each recipe.ingredients}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{#if loggedIn}}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8" id="comments">
+            <div class="col-8">
+                <h5>Leave a Comment</h5>
+                <form class="comment-form">
+                    <textarea class="form-control" name="comment-body" id="" cols="4" rows="5"></textarea>
+                    <button class="btn-primary submit-btn" type="submit">Submit</button>
+                </form>
+            </div>
+            {{#if recipe.Comments}}
+            <h5 class="mt-5">Comments</h5>
+            {{#each recipe.Comments}}
+            <div class="col-6 shadow p-3 mb-3 bg-white rounded">
+                <h6 class="text-highlight"> {{this.user.user_name}} </h6>
+                <p>{{this.comment_text}}</p>
+                {{#if this.canDelete}}
+                <button type="button" onclick="handleDeleteComment({{this.id}})"
+                    class="delete-post-btn btn-danger">Delete</button>
+                {{/if}}
+
+            </div>
+            {{/each}}
+            {{else}}
+
+            {{/if}}
+        </div>
+{{/if}}
+        <div class="col-md-2" id="tags">
+            <h5 class="mt-5">Tags</h5>
+            {{#each recipe.categories}}
+            <a href="/category/{{this.category_name}}">
+                <button class="btn-primary">
+                    {{this.category_name}}
+                </button>
+            </a>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+<script src="/javascript/add-favorite.js"></script>
+<script src="/javascript/delete-favorite.js"></script>
+{{#if loggedIn}}
+<script src="/javascript/add-comment.js"></script>
+{{/if}}
+<script src="/javascript/delete-comment.js"></script>

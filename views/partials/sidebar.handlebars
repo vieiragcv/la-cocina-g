@@ -1,0 +1,10 @@
+  <div class="col-md-2 sidebar pt-4" style="padding-left: 30px;">
+        <h3 class="text-nowrap">Select A Category</h3>
+            <ul class="list-group d-grid gap-2">
+                {{#each categories as |category|}}
+                <a href="/category/{{category_name}}">
+                <div class="p-2 border recipecard shadow-sm bg-white rounded text-center">{{category.category_name}}</div>
+                </a>
+                {{/each}}
+            </ul>
+    </div>

@@ -1,0 +1,52 @@
+
+
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5 w-75 rounded-3" style="
+    background-image: url('https://cdn.vox-cdn.com/thumbor/8XbAb6nXxoye4gpc_Wwti0IX3bk=/0x407:4751x2783/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/23172798/Table_Overview_World_Red_Eye.jpg');
+    background-size: cover;">
+        <h3 class="fw-bold text-white">Choose from thousands of recipes</h3>
+    </div>
+    <div class="row mt-4">
+      <div class="col-6 offset-3">
+        <input type="text" id="recipeSearch" class="form-control" placeholder="Find a recipe..." />
+      </div>
+    </div>
+</div>
+
+<div class="container">
+  <div class="row pt-3">
+    <div class="col-3">
+      {{> sidebar }}
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div>
+          <h3 class="text-center pt-3">Recipes</h3>
+        </div>
+         {{#each recipes as |recipe|}}
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 d-flex flex-col flex-grow">
+          <div class="card mb-3 shadow-sm">
+            <img class="thumbnail-image card-img-top" src="{{recipe.image}}">
+            <div class="card-body">
+              <div class="d-flex flex-column" style="height: 100%; max-height: 275px;">
+                <div>
+                  <h5 class="card-title">{{recipe.recipe_name}}</h5>
+                </div>
+                <div class="card-recipe-description">
+                  <p class="card-text"> {{recipe.description}} </p>
+                </div>
+                <div class="text-center">
+                  <a href="/recipe/{{this.id}}" class="btn btn-primary">View Recipe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+</div>
+</div>
+
+<script src="https://kraaden.github.io/autocomplete/autocomplete.js"></script>
+<script src="/javascript/search.js" type="text/javascript" />
